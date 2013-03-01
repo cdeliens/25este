@@ -160,6 +160,9 @@ h3{
 	margin: auto;
 	padding-bottom: 0px;
 }
+ .headercontent{
+      height:170px;
+}
 
 .cooolfixed #content .static{
 	margin-bottom: 10px;
@@ -386,14 +389,26 @@ text-align:right;
 }
 #subtittle.galleries{
   background: url(../img/content_1.png) top left repeat;
- width:630px;
+ width:950px;
  height:40px;
  padding-top:10px;
  padding-bottom:5px;
  margin-bottom:5px;
  margin-left:2px;
  margin-right:9px;
-  
+}
+#subtittle.banner_bottom{
+  background: transparent;
+ width:950px;
+ height:60px;
+ padding-top:10px;
+ padding-bottom:5px;
+ margin-bottom:5px;
+ margin-left:2px;
+ margin-right:9px;
+  margin: 0 0px 0px -5px;
+  overflow: hidden;
+  float: left;
 }
 #subtittle.articles{
  background: url(../img/content_1.png) top left repeat;
@@ -1089,9 +1104,10 @@ text-align:right;
 }
 .sidebar{
   background: url(../img/content_1.png) top left repeat;
-  width: 280px;
-  padding: 10px;
+  padding: 10px 0px 10px 10px;
   overflow: hidden;
+  width: 290px;
+  margin-left: 12px;
 }
 .swf_ad{
   margin-top: 10px;

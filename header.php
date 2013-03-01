@@ -8,10 +8,9 @@
 	
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js" ></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.bgiframe.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery-ui-1.10.1.custom.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/hoverIntent.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/supersubs.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/superfish.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.colorbox-min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.hint.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.masonry.js"></script>
@@ -21,6 +20,7 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/swfobject.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/css/galleria/classic/galleria.classic.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/markup.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/modernizr.js"></script>
 	<script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
 	<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.72.js"></script>
 	<script src="<?php bloginfo('template_directory'); ?>/js/slider.js" type="text/javascript"></script>	<script src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
@@ -33,6 +33,7 @@
 	    xfbml  : true  // parse XFBML
   });
 </script>
+
 <script type="text/javascript">
 
     function getRandomFilename()
@@ -41,11 +42,12 @@
         var r = Math.floor(Math.random() * names.length);
         return names[r];
     }
-
+   
     var flashvars = {clickTag: "http://www.coca-cola.co.cr/&clickTarget=_blank' "};
     var params = {};
     var attributes = { style: "margin: 0 0 25px;text-align: center;"};
     swfobject.embedSWF(getRandomFilename(), "mainBanner", "728", "90", "9.0.0", false, flashvars, params, attributes);
+
 </script>
 
 
@@ -158,7 +160,7 @@
 		
 		<div id="content">
 		<div class="box" style="margin: 0 0 5px;text-align: center; position: relative" >
-	         <input type=button class="box" style="cursor: pointer; color: transparent; background-color: transparent; border-color: transparent;width: 760px;height: 90px;position: absolute;" onClick="window.open('http://www.coca-cola.co.cr/', '_blank');window.focus();">
+	         <input type=button class="box" style="cursor: pointer; color: transparent; background-color: transparent; border-color: transparent;width: 760px;height: 90px;position: absolute;" onClick="window.open('https://secure.contagiatulocura.content.coca-cola.com/ssldocs/cr', '_blank');window.focus();">
 	         	<div id="mainBanner"></div>
 	 <!--         	<a href="http://www.coca-cola.co.cr/" onClick="_gaq.push(['_trackEvent', 'Banner', 'Click', 'Coca Cola']);" target="_blank" style="cursor: pointer;display:block;">
 		  	<object type='application/x-shockwave-flash' data='/swf/marzo/columpio_728x90.swf' width='728' height='90'><param name='flashvars' value='clickTag=http://www.coca-cola.co.cr/es/index.html&clickTarget=_blank' /><param name='allowScriptAccess' value='always' /><param name='movie' value='/swf/marzo/columpio_728x90.swf' /><param name='bgcolor' value='#000000'></object>
@@ -166,3 +168,4 @@
 	<!-- </a> -->
 	        </input></div>
 		<?php if(!is_single()){ print '<div class="fluid">'; }
+
