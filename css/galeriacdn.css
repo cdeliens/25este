@@ -1,0 +1,132 @@
+
+#slider {
+
+	/* You MUST specify the width and height */
+	width:660px;
+	height:398px;
+	position:relative;	
+	overflow:hidden;
+}
+
+#mask-gallery {
+	
+	overflow:hidden;	
+}
+
+#gallery {
+	
+	/* Clear the list style */
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	z-index:0;
+	
+	/* width = total items multiply with #mask gallery width */
+	width:900px;
+	overflow:hidden;
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+}
+
+	#gallery li {
+
+		
+		/* float left, so that the items are arrangged horizontally */
+		float:left;
+	}
+
+
+#mask-excerpt {
+	
+	/* Set the position */
+	position:absolute;	
+	top:0;
+	left:533px;
+	z-index:500px;
+	height:398;
+	/* width should be lesser than #slider width */
+	width:200px;
+	overflow:hidden;	
+	
+
+}
+#btn-next{
+	
+	/* Set the position */
+	position:absolute;	
+	top:180px;
+	left:432px;
+	z-index:500px;
+	/* width should be lesser than #slider width */
+	width:50px;
+	overflow:hidden;	
+	
+
+}
+#btn-prev{
+	
+	/* Set the position */
+	position:absolute;	
+	top:180px;
+	left:0px;
+	z-index:500px;
+	/* width should be lesser than #slider width */
+	width:50px;
+	overflow:hidden;	
+	
+
+}
+
+.button-gal{
+	color:white;
+	background:gray;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6; 
+	font: 12px/100% Segoe;
+	padding: .5em 2em .55em;
+	
+	-webkit-border-radius: .5em;
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+	
+#excerptgal {
+	/* Opacity setting for different browsers */
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;  
+	-khtml-opacity: 0.6;
+	opacity: 0.6;  
+	
+	/* Clear the list style */
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	/* Set the position */
+	z-index:10;
+	position:absolute;
+	top:0;
+	left:0;
+	
+	/* Set the style */
+	width:135px;
+	background-color:#000;
+	overflow:hidden;
+	font-family:Segoe;
+	font-size:11px;
+	color:#fff;	
+	
+	
+}
+
+	#excerptgal li {
+		padding:5px;
+	}
+	

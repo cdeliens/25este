@@ -1,0 +1,2 @@
+[21-Nov-2010 23:50:20] PHP Fatal error:  Call to undefined function  get_header() in /home2/callelus/public_html/25este75sur/wp-content/themes/cooolzine/index.php on line 1
+[30-Nov-2010 22:58:25] PHP Fatal error:  Call to undefined function  get_header() in /home2/callelus/public_html/25este75sur/wp-content/themes/cooolzine/index-cartelera.php on line 1

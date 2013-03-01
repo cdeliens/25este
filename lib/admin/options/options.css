@@ -1,0 +1,214 @@
+.bloooming label, .metablock fieldset.metafield {
+	display: block;
+	clear: both;
+	float: left;
+	width: 120px;
+	padding: 4px 0 0 0;
+}
+
+.bloooming input[type=text] {
+	display: block;
+	float: left;
+	width: 280px;
+	margin: 0 0 8px 0;
+}
+
+.bloooming input[type=checkbox] {
+	display: block;
+	float: left;
+	width: 20px;
+	margin: 4px 0 8px 0;
+}
+
+.bloooming select {
+	display: block;
+	float: left;
+	width: 280px;
+	margin: 0 0 8px 0;
+}
+
+.bloooming p.info {
+	font-size: 9px;
+	display: block;
+	clear: both;
+	margin: 0 0 0 120px;
+}
+
+.bloooming form {
+	width: 480px;
+	float: left;
+	padding: 0 0 40px 0;
+	overflow: hidden;
+}
+
+.bloooming .screenshots {
+	width: 50%;
+	float: right;
+	padding: 95px 0 0 0;
+	overflow: hidden;
+}
+
+.bloooming .screenshots img {
+	border: 6px solid #fff;
+	padding: 2px;
+}
+
+.bloooming .inputlist li {
+	background: url(../img/divider.png) bottom left repeat-x;
+	padding: 0 0 20px 0;
+	overflow: hidden;
+}
+
+img.metascreenshot{
+	float: right;
+}
+
+#tooltip{
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 2px 2px 20px #16405f;
+	-webkit-box-shadow:  2px 2px 20px #16405f;
+	color: #f9f9f9;
+	position:absolute;
+	background:#2e86c6;
+	padding:10px;
+	display:none;
+}	
+
+a.tooltip {
+	text-indent: -9999px;
+	background: url(../img/help.png) top left repeat-x;
+	display: block;
+	width:23px;
+	height: 23px;
+	float: left;
+	margin: 0 4px 0 4px;
+	cursor: pointer;
+}
+
+.bloooming a.thickbox{
+	text-indent: -9999px;
+	background: url(../img/media.png) top left repeat-x;
+	display: block;
+	width:23px;
+	height: 23px;
+	float: left;
+	margin: 0 0 0 4px;
+	cursor: pointer;
+}
+
+.metablock fieldset.metafield {
+	width: 40%;
+	padding: 0 0 40px 0;
+	overflow: hidden;
+}
+
+#poststuff p.helpmeta {
+	padding: 0;
+	margin: 20px 0 20px 0;
+	font-size: 10px;
+	
+}
+
+
+/*
+ul.optimg{
+	display: block;
+	margin: 0 0 30px 0;
+	overflow: hidden;
+	font-size: 10px;
+}
+
+ul.optimg li {
+	width: 130px;
+	float: left;
+	display: block;
+}
+
+ul.optimg li input {
+	margin: 0 0 0 24px;
+}
+
+.button-primary{
+	margin: 30px 0 0 0;
+}
+
+ul.optwide{
+	display: block;
+	margin: 0 0 30px 0;
+	font-size: 10px;
+	overflow: hidden;
+}
+
+ul.optwide li {
+	display: block;
+	float: left;
+	width: 265px;
+}
+
+ul.optwide li input{
+	margin: 0 0 0 26px;
+}
+
+fieldset.metafield{
+	display: block;
+	overflow: hidden;
+	margin: 0 0 10px 0;
+}
+
+
+fieldset.metafield label {
+	line-height: 200%;
+	width: 150px;
+	float: left;
+	display: block;
+}
+
+fieldset.metafield .metainput{
+	width: 300px;
+}
+
+fieldset.metafield .check{
+	float: left;
+	margin: 5px 10px 0 0;
+}
+
+.clear{
+	clear: both;
+}
+
+h4.metahead{
+	display: block;
+	clear: both;
+	line-height: 200%;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.metablock{
+	overflow: hidden;
+	clear: both;
+	border-bottom: 2px solid #ccc;
+}
+
+ul.inptlst li {
+	display: block;
+	overflow: hidden;
+	clear: both;
+}
+
+ul.inptlst li label{
+	width: 100px;
+	line-height: 200%;
+	display: block;
+	float: left;
+}
+
+ul.inptlst li input{
+	width: 200px;
+	display: block;
+	float: left;
+	margin-bottom: 5px;
+}
+
+*/
