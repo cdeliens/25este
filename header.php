@@ -159,13 +159,5 @@
 
 		
 		<div id="content">
-		<div class="box" style="margin: 0 0 5px;text-align: center; position: relative" >
-	         <input type=button class="box" style="cursor: pointer; color: transparent; background-color: transparent; border-color: transparent;width: 760px;height: 90px;position: absolute;" onClick="window.open('https://secure.contagiatulocura.content.coca-cola.com/ssldocs/cr', '_blank');window.focus();">
-	         	<div id="mainBanner"></div>
-	 <!--         	<a href="http://www.coca-cola.co.cr/" onClick="_gaq.push(['_trackEvent', 'Banner', 'Click', 'Coca Cola']);" target="_blank" style="cursor: pointer;display:block;">
-		  	<object type='application/x-shockwave-flash' data='/swf/marzo/columpio_728x90.swf' width='728' height='90'><param name='flashvars' value='clickTag=http://www.coca-cola.co.cr/es/index.html&clickTarget=_blank' /><param name='allowScriptAccess' value='always' /><param name='movie' value='/swf/marzo/columpio_728x90.swf' /><param name='bgcolor' value='#000000'></object>
-	 -->	  
-	<!-- </a> -->
-	        </input></div>
 		<?php if(!is_single()){ print '<div class="fluid">'; }
 
